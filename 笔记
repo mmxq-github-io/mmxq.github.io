@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"content="width=device-width,initial-scale=1.0"> 
+    <meta charset="utf-8" />
+    <title>笔记标题</title>
+</head>
+<body>
+    <p>内容<br/>换行</p>
+    <b>粗体</b>
+    <u>下划线</u>
+    <s>中划线</s>
+    <em>斜体</em>
+    <left>左对齐</left>
+    <center>居中</center>
+    <right>右对齐</right>
+
+<style>
+  body {
+    background-image: url('背景图片地址.jpg');
+</style>
+
+<ul>
+<li><a href="jn.html">江南</a></li>
+<li>列表2</li>
+</ul>
+
+<标签 style="color:颜色">文本<标签>
+
+   <a href="https://web.lunchmc.top" target="_blank">lunchmc.top</a>
+       <a href="index.html">主页</a>
+    
+</body>
+</html>
