@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>appendChild 示例</title>
+</head>
+<body>
+
+<div id="parent">
+    <!-- 父元素 -->
+</div>
+
+<button id="add-text">添加文本</button>
+
+<script>
+// 获取父元素和按钮元素
+var parentDiv = document.getElementById("parent");
+var addTextBtn = document.getElementById("add-text");
+
+// 创建一个新的元素
+var newElement = document.createElement("p");
+newElement.textContent = "这是一个新添加的段落";
+
+// 使用 appendChild 方法将新元素添加到父元素中
+parentDiv.appendChild(newElement);
+
+// 为按钮添加点击事件监听器
+addTextBtn.addEventListener("click", function() {
+    // 创建一个新的段落元素
+    var newParagraph = document.createElement("p");
+    // 设置新段落的文本内容
+    newParagraph.textContent = "这是通过按钮添加的文本";
+    // 将新段落添加到父元素中
+    parentDiv.appendChild(newParagraph);
+});
+</script>
+
+</body>
+</html>
