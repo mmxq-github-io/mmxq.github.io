@@ -19,6 +19,7 @@ indonesia 印度尼西亚
 
 时间
 pagi 早上
+siang 中午
 动词
 1.orang 人 中国[的]人 自带[的]
 例 orang china 中国人 orang jepang日本人
@@ -30,3 +31,4 @@ kamu orang indonesia
 saya suka makan nasi
 apa kabar 你好吗 啊啪嘎巴
 saya baik 我很好 saya 拜
+salamat pagi 早上好
