@@ -1,12 +1,15 @@
 规则
 k=g
+p=b
 当句子有<的>的时候调换位置，无<的>打时候用中文顺序
 
 人称
 saya 我
 kamu 你 gamu
 dia 他/她 
+halo 你好
 suka 喜欢 suga
+terima kaxih 谢谢
 makan 吃 magan
 minum 喝 minu
 nasi 饭 nac
