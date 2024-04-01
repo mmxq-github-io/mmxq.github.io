@@ -1,3 +1,24 @@
+规则
 k=g
+当句子有<的>的时候调换位置，无<的>打时候用中文顺序
+
+人称
 saya 我
-kamu 你
+kamu 你 gamu
+dia 他/她 
+suka 喜欢 suga
+makan 吃 magan
+minum 喝 minu
+nasi 饭 nac
+air 水 
+indonesia 印度尼西亚
+
+动词
+1.orang 人 中国[的]人 自带[的]
+例 orang china 中国人 orang jepang日本人
+
+
+句子
+saya orang china
+kamu orang indonesia
+saya suka makan nasi
