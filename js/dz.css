@@ -1,22 +1,18 @@
-body {
-  background: #black;
-}
+
 /* Basic styles */
 h1 {
         position: relative;
         float: left;
-        color: #d7b94c;
+        color: white;
         font-family: 'Inconsolata', Consolas, monospace;
-        font-size: 4em;
+        font-size: 10px;
         margin:100px;
 }
 h1 span{
         position: absolute;
         top: 0;
         right: 0;
-        background: #1d1f20;
-        width: 100%;
-        border-left: .1em solid transparent;
+        background: black;
         -webkit-animation: typing 3s steps(16) forwards,
                                                                                  cursor 1s infinite;
         animation: typing 3s steps(16) forwards,
