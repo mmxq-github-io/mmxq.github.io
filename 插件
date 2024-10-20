@@ -1,0 +1,33 @@
+public class WaterDamageListener implements Listener {
+    private final Plugin plugin;
+
+    public WaterDamageListener(Plugin plugin) {
+        this.plugin = plugin;
+    }
+
+    @EventHandler
+    public void onPlayerMove(PlayerMoveEvent event) {
+        Player player = event.getPlayer();
+        Location from = event.getFrom();
+        Location to = event.getTo();
+
+        if (isInWater(from) && !isInWater(to)) {
+            // 玩家离开水时重置
+            player.setMetadata("inWater", new FixedMetadataValue(plugin, false));
+        } else if (!isInWater(from) && isInWater(to)) {
+            // 玩家进入水时开始扣血
+            player.setMetadata("inWater", new FixedMetadataValue(plugin, true));
+            damagePlayer(player);
+        }
+    }
+
+    private boolean isInWater(Location location) {
+        // 检查玩家是否在水方块中
+        return location.getBlock().getType() == Material.WATER || location.getBlock().getType() == Material.STATIONARY_WATER;
+    }
+
+    private void damagePlayer(Player player) {
+        // 每秒对玩家造成1点伤害
+        player.damage(1);
+    }
+}
